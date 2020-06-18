@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script defer src="scripts.js"></script>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+  </style>
+</head>
+<body>
+
+
+<div class="header-box">
+  <div class="heading-header">
+    Learn to code by watching others
+  </div>
+  <div class="heading-text">
+    See how experienced developers solve problems in real time. Watching scripted tutorials is great, but
+    understanding how developers think is invaluable.
+  </div>
+
+  <button class="try-it">
+    Try it free 7 days then $20/mo. thereafter
+  </button>
+
+
+
+  <div class="wrapper">
+    <div id="error_message"></div>
+    <form id="myform" onsubmit="return validate();">
+
+      <div class="input_field">
+        <input type="text" placeholder="First Name" id="name">
+      </div>
+
+      <div class="input_field">
+        <input type="text" placeholder="Last name" id="subject">
+      </div>
+
+      <div class="input_field">
+        <input type="text" placeholder="Email Address" id="phone">
+      </div>
+
+      <div class="input_field">
+        <input type="text" placeholder="Password" id="email">
+      </div>
+
+      <div class="btn">
+        <input type="submit">
+      </div>
+    </form>
+
+
+
+
+  </div>
+
+  <section class="form">
+    <div id="error"></div>
+    <form id="form" action="/" method="GET">
+      <div>
+        <label for="name1">Name1</label>
+        <input id="name1" name="name1" type="text" required>
+      </div>
+      <div>
+        <label for="password1">password1</label>
+        <input id="password1" name="password1" type="password">
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
